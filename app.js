@@ -21,3 +21,6 @@ document.querySelector("#listen-button").addEventListener("click",()=>{const sta
 document.querySelector("#menu-button").addEventListener("click",()=>document.querySelector("#main-nav").classList.toggle("open"));
 document.querySelectorAll("[data-age-link]").forEach(b=>b.addEventListener("click",()=>{activeFilter=b.dataset.ageLink;document.querySelectorAll(".filter").forEach(f=>f.classList.toggle("active",f.dataset.filter===activeFilter));document.querySelector("#stories").scrollIntoView({behavior:"smooth"});render();}));
 render();
+
+
+// Hii my name is tirth.
